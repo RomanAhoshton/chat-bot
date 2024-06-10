@@ -1,0 +1,67 @@
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.response {
+  display: flex;
+}
+
+.messageResponse {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  width: fit-content;
+  height: auto;
+  display: flex;
+  display: inline-block;
+  background-color: transparent;
+  align-self: flex-start;
+  align-items: center;
+}
+
+.messageRequest {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  width: fit-content;
+  height: auto;
+  display: flex;
+  display: inline-block;
+  background-color: #f4f4f4;
+  align-self: flex-end;
+}
+
+.optionsResponse {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  border-radius: 20px;
+}
+
+.options {
+  display: flex;
+  width: fit-content;
+  margin-top: 10px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.optionButton {
+  background-color: transparent;
+  border: none;
+  color: #242424;
+  font-size: 18px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  width: fit-content;
+  border: 2px solid #f4f4f4;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.responseIcon {
+  display: flex;
+}
