@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import s from './index.module.css';
 
-import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturing';
+import FilterVintageIcon from '@mui/icons-material/FilterVintage';
 
 const Message = ({ message }) => {
   return (
@@ -11,7 +11,7 @@ const Message = ({ message }) => {
           {message.optionsResponse?.length > 0 ? (
             <div className={s.optionsResponse}>
               <div className={s.responseIcon}>
-                <PrecisionManufacturingIcon fontSize='large' />
+                <FilterVintageIcon fontSize='large' color='primary' />
                 <span className={s.messageResponse}>{message.text}</span>
               </div>
 
@@ -27,7 +27,7 @@ const Message = ({ message }) => {
             </div>
           ) : (
             <div className={s.response}>
-              <PrecisionManufacturingIcon fontSize='large' />
+              <FilterVintageIcon fontSize='large' color='primary' />
               <span className={s.messageResponse}>{message.text}</span>
             </div>
           )}
